@@ -82,3 +82,128 @@ else:
 
 print()
 print()
+
+
+
+
+
+#OTHER NOTES AND ATTEMPTS
+
+
+#Answer=pd.read_excel('database1.xlsx', 'ImplementWeights')
+
+#db_inputanswer=Answer['Weights']
+
+#print('Please choose a team from this list', '\n' , db_inputanswer)
+
+#usr_choice=input('Enter the number 31 to find the weights: ')
+
+#print(db_inputanswer[int(usr_choice)])
+
+
+#2nd team 
+
+#after second team is chosen
+
+# db_inputsecond=db['Team']
+
+# print('Please choose a different team from this list', '\n' , db_inputsecond)
+
+# usr_choice=input('Enter the number next to your team of choice: ')
+
+# print(db_inputsecond[int(usr_choice)])
+
+# second_team=db_inputsecond[int(usr_choice)]
+
+
+
+
+#Try
+#CORRELATION GRAPH
+#On other screen
+
+
+
+
+
+#which is the home team?
+
+#historical data to see which statistics are most predictive--use for weight
+#regression on what combination for team 1
+#regression on what combination would lead to team 2 win
+
+
+#correlation:
+
+# regdata=pd.read_excel('database1.xlsx', 'RegData')
+
+# def plot_corr(df,size=10):
+#     '''Function plots a graphical correlation matrix for each pair of columns in the dataframe.
+#     Input:
+#         df: pandas DataFrame
+#         size: vertical and horizontal size of the plot'''
+#     corr = df.corr()
+#     fig, ax = plt.subplots(figsize=(size, size))
+#     ax.matshow(corr)
+#     plt.xticks(range(len(corr.columns)), corr.columns);
+#     plt.yticks(range(len(corr.columns)), corr.columns);
+
+# plt.show()
+
+
+#regdata['W/L']=le.fit_transform(regdata['W/L'])
+
+
+#def plot_corr(df,size=10):
+#'''Function plots a graphical correlation matrix for each pair of columns in the dataframe.
+ #   Input:
+  #      df: pandas DataFrame
+   #     size: vertical and horizontal size of the plot'''
+    #corr = df.corr()['W/L']
+  #  plt.scatter(np.arange(len(list(df)),corr))
+  #  plt.show()
+
+
+#GRAPHICAL COMPONENT
+    #start 
+#MENTION WHERE DATA COMES FROM--VERIFY SOURCE--PROVIDE LINK
+    #could include excel file
+#Scraping website via beautiful soup--if have time
+
+
+
+
+
+#Original Statistics
+
+#db=pd.read_excel('database1.xlsx', 'Stats')
+#print(db)
+
+#db_inputteam=db['Team']
+
+#print('Please choose a team from this list', '\n' , db_inputteam)
+
+#usr_choice=input('Enter the number next to your team of choice: ')
+
+#print(db_inputteam[int(usr_choice)])
+
+#first_team=db_inputteam[int(usr_choice)]
+
+##2nd team 
+
+##after second team is chosen
+
+#db_inputsecond=db['Team']
+
+#print('Please choose a different team from this list', '\n' , db_inputsecond)
+
+#usr_choice=input('Enter the number next to your team of choice: ')
+
+#print(db_inputsecond[int(usr_choice)])
+
+#second_team=db_inputsecond[int(usr_choice)]
+
+
+#print(db[db['Team']==first_team])
+
+#print(db[db['Team']==second_team])
