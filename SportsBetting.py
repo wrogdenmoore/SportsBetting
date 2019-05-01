@@ -10,7 +10,7 @@ db=pd.read_excel('database1.xlsx', 'ImplementWeights') #use implement weights sh
 print()
 print('See above for all the NBA teams and their statistics.') #view the statistics for each team
 print()
-input('Press enter to continue to the statistical weight distribution') #this is to break up the steps in the program and introduce the next step
+input('Press enter to continue on to team selection') #this is to break up the steps in the program and introduce the next step
 
 db_inputteam=db['TEAM'] 
 #just concerned with the team column
