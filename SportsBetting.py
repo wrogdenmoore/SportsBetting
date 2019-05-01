@@ -30,3 +30,29 @@ print()
 print('Please choose a different team from this list', '\n' , db_inputsecond) #choose a different team from the list
 print()
 usr_choice2=input('Enter the number next to your team of choice above: ') #put in the number
+
+second_team=db_inputsecond[int(usr_choice2)] #storing the number in a variable
+
+print()
+print()
+print(db_inputteam[int(usr_choice1)]) #print the name of the first team selected
+print()
+print()
+print(db[db['TEAM']==first_team]) #print the statistics for the first team
+print()
+print()
+print()
+print(db_inputsecond[int(usr_choice2)]) #print the name of the second team selected
+print()
+print()
+print(db[db['TEAM']==second_team]) #print the statistics for the second team
+print()
+print()
+print()
+input('Press enter to continue to the statistical weight distribution') #this is to break before the next section of the weight distributions
+print()
+print()
+print("Based on correlation between these statistics and Wins/Losses in games this year, here are the weights for each statistic:" ) #print statement as introduction
+print()
+print()
+
