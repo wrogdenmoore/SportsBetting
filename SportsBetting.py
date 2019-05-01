@@ -14,19 +14,19 @@ input('Press enter to continue on to team selection') #this is to break up the s
 
 db_inputteam=db['TEAM'] 
 #just concerned with the team column
-print()
-print('Please choose a team from this list', '\n' , db_inputteam)
-print()
+# print()
+# print('Please choose a team from this list', '\n' , db_inputteam)
+# print()
 
-usr_choice1=input('Enter the number next to your team of choice above: ')
+# usr_choice1=input('Enter the number next to your team of choice above: ')
 
-first_team=db_inputteam[int(usr_choice1)]
-print()
-#2nd team 
+# first_team=db_inputteam[int(usr_choice1)]
+# print()
+# #2nd team 
 
 
-db_inputsecond=db['TEAM']
-print()
-print('Please choose a different team from this list', '\n' , db_inputsecond)
-print()
-usr_choice2=input('Enter the number next to your team of choice above: ')
+# db_inputsecond=db['TEAM']
+# print()
+# print('Please choose a different team from this list', '\n' , db_inputsecond)
+# print()
+# usr_choice2=input('Enter the number next to your team of choice above: ')
