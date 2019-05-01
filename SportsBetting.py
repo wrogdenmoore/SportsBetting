@@ -56,3 +56,14 @@ print("Based on correlation between these statistics and Wins/Losses in games th
 print()
 print()
 
+print(db[db['TEAM']=='Weights'])
+print()
+
+first_rating=db[db['TEAM']==first_team]['Rating'] #storing the team rating (based on the weights and statistics)
+
+
+# print(first_rating[int(usr_choice1)]) #commented out--don't need to print
+
+
+second_rating=db[db['TEAM']==second_team]['Rating'] #storing the second team rating
+
