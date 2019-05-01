@@ -13,7 +13,7 @@ print()
 input('Press enter to continue on to team selection') #this is to break up the steps in the program and introduce the next step
 
 db_inputteam=db['TEAM']  #first team
-just concerned with the team column
+#just concerned with the team column
 print()
 print('Please choose a team from this list', '\n' , db_inputteam) #list of nba teams with a number next to them
 print()
